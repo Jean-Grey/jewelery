@@ -1,0 +1,134 @@
+body 
+{
+	margin: 0;
+	padding: 0;
+}
+
+h1 
+{
+	margin: 0;
+}
+a
+{
+	text-decoration: none;
+
+}
+
+
+.mainHeader 
+{
+	display: block;
+	width: 100%;
+	height: 800px;
+	background-image: url(_images/header.jpg);
+
+}
+.mainHeader header 
+{
+	display: block;
+	max-width: 940px;
+	width: 100%;
+	margin:0 auto;
+}
+
+.mainHeader header h1
+{
+	float: left;
+	font-family: Helvetica, Arial;
+	font-size: 24px;
+	color: white;
+	font-weight: normal;
+	line-height: 102px;
+}
+
+.mainHeader header nav {
+	clear: right;
+	float: right;
+	font-family: Helvetica, Arial;
+	font-size: 14px;
+	line-height: 102px;
+}
+
+.mainHeader header nav ul 
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.mainHeader header nav ul li
+{
+	float: left;
+	padding: 0;
+	margin-left: 10px;
+
+}
+.mainHeader header nav ul li a
+{
+	color: white;
+}
+
+.mainHeader header nav ul li a:hover
+{
+	color: #888;
+}
+
+
+.mainHeader header h2 
+{
+	clear:both;
+	padding-top: 215px;
+	margin: 0;
+	color: white;
+	font-family: Helvetica, Arial;
+	font-size: 14px;
+	font-weight: normal;
+}
+.mainHeader header h3
+{
+	color: white;
+	font-family: Helvetica, Arial;
+	font-size: 60px;
+	clear: both;
+	margin: 40px 0;
+	font-weight: normal;
+}	
+
+.learnMore
+{
+	float: left;
+
+}
+
+.learnMore a {
+	line-height: 55px;
+	font-size: 16px;
+	padding: 0 45px;
+	color: white;
+	background: red;
+	display: block;
+	border: 2px solid red;
+	border-radius: 4px;
+	font-family: Helvetica, Arial;
+
+}
+
+
+
+.decoration
+{
+	float: left;
+	margin-left: 25px;
+}
+
+.decoration a {
+	line-height: 55px;
+	font-size: 16px;
+	padding: 0 45px;
+	color: white;
+	font-family: Helvetica, Arial;
+	display: block;
+	border: 2px solid white;
+	border-radius: 4px;
+
+}
+
